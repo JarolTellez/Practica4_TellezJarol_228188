@@ -41,7 +41,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/button_cold_drinks"/>
+            android:id="@+id/button_antojitos"/>
         <Button
             android:text="@string/especialidades"
             android:textColor="@color/white"
@@ -52,7 +52,7 @@
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
             android:paddingVertical="@dimen/menu_buttons_paddings"
-            android:id="@+id/button_hot_drinks" />
+            android:id="@+id/button_especialidades" />
 
         <Button
             android:text="@string/combinations"
@@ -63,6 +63,7 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
+            android:id="@+id/button_combinations"
              />
 
         <Button
@@ -74,6 +75,7 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
+            android:id="@+id/button_tortas"
             />
         <Button
             android:text="@string/sopas"
@@ -84,6 +86,7 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
+            android:id="@+id/button_sopas"
             />
         <Button
             android:text="@string/cold_drinks"
@@ -94,6 +97,7 @@
             android:layout_gravity="fill_horizontal"
             android:layout_columnWeight="1"
             android:textSize="@dimen/menu_buttons_text"
+            android:id="@+id/button_coldDrinks"
             />
 
 
